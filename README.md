@@ -1,6 +1,6 @@
 # Steam Duck - PAWO (Personal Autonomous Walking Optimizer)
 
-![PAWO Image](assets/images/robot.jpg)
+![PAWO Image](assets/images/robot.png)
 
 I started the project at the end of November 2024 as my own version of the BDX Droid from Disney Imagineering. The original code name was **Steam Duck**, but for stylistic reasons I later renamed it after the mythical peacock (the star constellation *Pavo*). After that, I came up with an acronym, so the name became **P.A.W.O. (Personal Autonomous Walking Optimizer)**.
 
