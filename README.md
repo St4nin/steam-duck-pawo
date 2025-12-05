@@ -9,6 +9,10 @@ Finally, during an exhibition in Brno in October 2025, some students jokingly ca
 So yes — this project has had many names and versions. But no matter what the name is, it remains a very cool experiment in figuring out how to build a beautiful machine like the BDX Droid using only off-the-shelf components. The idea is to make it possible for anyone to build it with just 3D-printed parts, a screwdriver, and standard hobby-shop materials.
 
 
+📺 [YouTube Channel](https://youtube.com/playlist?list=PLCrnO1B0KE3rKf2_9nu4y9VyF9zSY7Yt8&si=5LN6mWCUGIe7l07J) – See our robots in action!
+
+☕ [Buy me a Coffee](https://www.vut.cz/en/people/stanislav-vechet-18462) at Laboratory of bio-inspired robotics, Institute of Autonomous Systems
+
 # Support
 
 We appreciate if you cite one of this sources as support of our work. Thanks a lot.
