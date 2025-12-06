@@ -2,7 +2,7 @@
 
 ![PAWO Image](assets/images/robot.png)
 
-I started the project at the end of November 2024 as my own version of the BDX Droid from Disney Imagineering. The original code name was **Steam Duck**, but for stylistic reasons I later renamed it after the mythical peacock (the star constellation *Pavo*). After that, I came up with an acronym, so the name became **P.A.W.O. (Personal Autonomous Walking Optimizer)**.
+I started the project at the end of November 2023 as my own version of the BDX Droid from Disney Imagineering. The original code name was **Steam Duck**, but for stylistic reasons I later renamed it after the mythical peacock (the star constellation *Pavo*). After that, I came up with an acronym, so the name became **P.A.W.O. (Personal Autonomous Walking Optimizer)**.
 
 Finally, during an exhibition in Brno in October 2025, some students jokingly called the robot a **“futuristic chicken.”**
 
@@ -12,6 +12,12 @@ So yes — this project has had many names and versions. But no matter what the 
 📺 [YouTube Channel](https://youtube.com/playlist?list=PLCrnO1B0KE3rKf2_9nu4y9VyF9zSY7Yt8&si=5LN6mWCUGIe7l07J) – See our robots in action!
 
 ☕ [Buy me a Coffee](https://www.vut.cz/en/people/stanislav-vechet-18462) at Laboratory of bio-inspired robotics, Institute of Autonomous Systems
+
+# Steam Duck v1
+
+First version of the droid with simple likages, simple joints with hope everything will magicaly work...which wasn't.
+
+![PAWO Image](assets/images/steamduckv1.png)
 
 # Support
 
