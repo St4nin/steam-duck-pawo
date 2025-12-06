@@ -11,7 +11,7 @@ So yes — this project has had many names and versions. But no matter what the 
 
 📺 [YouTube Channel](https://youtube.com/playlist?list=PLCrnO1B0KE3rKf2_9nu4y9VyF9zSY7Yt8&si=5LN6mWCUGIe7l07J) – See our robots in action!
 
-☕ [Buy me a Coffee](https://www.vut.cz/en/people/stanislav-vechet-18462) at Laboratory of bio-inspired robotics, Institute of Autonomous Systems
+☕ [Buy me a Coffee](https://www.vut.cz/en/people/stanislav-vechet-18462) at Laboratory of bio-inspired robotics, Department of Autonomous Systems
 
 # Steam Duck v1
 
