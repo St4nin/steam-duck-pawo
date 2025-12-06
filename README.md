@@ -15,9 +15,19 @@ So yes — this project has had many names and versions. But no matter what the 
 
 # Steam Duck v1
 
-First version of the droid with simple likages, simple joints with hope everything will magicaly work...which wasn't.
+First version of the droid with simple linkages, simple joints with hope everything will magicaly work...which wasn't.
 
 ![PAWO Image](assets/images/steamduckv1.png)
+
+The main idea was to control the robot using PPO (Proximal Policy Optimization) which was also very naive to work in first place, even it does something.
+
+# Steam Duck v2 - PAWO
+
+The hardware for version 2 was completely redesigned, and we were able to create a simulation model in PyBullet that was accurate enough to experiment with several cyclic gait algorithms. This model is based on the version-1 geometry, but uses the updated dynamic parameters from version 2. The model still has 3 DOF per leg.
+At this stage, we combined classic control algorithms—specifically a custom Raibert-style controller based on classical dynamics calculations—with reinforcement learning. The RL component used PPO from Stable Baselines3 along with a custom MPC module. Even though I wasn’t completely satisfied with the results, it somehow works. :)
+
+[![Pawo Walking Twins](assets/images/PawoWalkingTwins.png)](https://raw.githubusercontent.com/St4nin/steam-duck-pawo/main/assets/videos/PawoWalkingTwins.mp4)
+
 
 # Support
 
