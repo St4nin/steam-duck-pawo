@@ -2,7 +2,7 @@
 
 ![PAWO Image](assets/images/robot.png)
 
-I started the project at the end of November 2023 as my own version of the BDX Droid from Disney Imagineering. The original code name was **Steam Duck**, but for stylistic reasons I later renamed it after the mythical peacock (the star constellation *Pavo*). After that, I came up with an acronym, so the name became **P.A.W.O. (Personal Autonomous Walking Optimizer)**.
+I started the project at the end of November 2023 as my own version of the BDX Droid [1] from Disney Imagineering. The original code name was **Steam Duck**, but for stylistic reasons I later renamed it after the mythical peacock (the star constellation *Pavo*). After that, I came up with an acronym, so the name became **P.A.W.O. (Personal Autonomous Walking Optimizer)**.
 
 Finally, during an exhibition in Brno in October 2025, some students jokingly called the robot a **“futuristic chicken.”**
 
@@ -27,6 +27,52 @@ The hardware for version 2 was completely redesigned, and we were able to create
 At this stage, we combined classic control algorithms—specifically a custom Raibert-style controller based on classical dynamics calculations—with reinforcement learning. The RL component used PPO from Stable Baselines3 along with a custom MPC module. Even though I wasn’t completely satisfied with the results, it somehow works. :)
 
 [![Pawo Walking Twins](assets/images/PawoWalkingTwins.png)](https://youtu.be/-dICqv_oGok?si=USGbTqSUK2ZzU-kX)
+
+# SteamDuck v3 - Futuristic Chicken
+
+🚧 Current Status (Nov. 2025)
+
+The robot is currently under heavy development.
+
+Like… __really__ heavy.
+
+We’re working on:
+
+ * Updating the walking strategy 🚶‍♂️🧠
+
+ * Refining the simulation model 🤖💻
+
+ * Total hardware overhaul (yes, again 🙃)
+
+   * Adding two more joints per leg → 5 DOF each 🔧
+
+   * Adding sensors on every joint 📡
+
+Hoping that this third big redesign will finally be the one where the robot gracefully strolls not only around our lab, but also casually down the hallways like it owns the place 😎✨
+
+
+| **Parameter**               | **BDX** [1]         | **PAWO v2**            | **#?#?# v3** |
+| --------------------------- | ------------------- | ---------------------- | ------------ |
+| Step duration               | 0.5 s               | 0.6 s                  |              |
+| Swing phase                 | 0.2 s               | 0.2 s                  |              |
+| Step height                 | 0.05 m              | 0.03 m                 |              |
+| Hip flexion-extension drive | 34 Nm, 20 rad/s     | 5 Nm, 6.4 rad/s, 7.4 V |              |
+| Robot total mass            | 15.4 kg             | 5 kg                   |              |
+| Leg mass                    | 3.6 kg              | 1.8 kg                 |              |
+| Torso including head        | 8.2 kg              | 1.4 kg                 |              |
+| Extended leg length         | 0.34 m              | 0.36 m                 |              |
+| Robot’s height              | 0.66 m              | 0.70 m                 |              |
+| Actuators                   | Quasi-direct drives | Monster Servo D845WP   |              |
+| **Abduction–Adduction**     | --                  | 0°                     | ±30°         |
+| **Flexion–Extension**       | --                  | 0°–15°                 | 0°–60°       |
+| **Knee**                    | --                  | 15°–30°                | 30°–90°      |
+| **Transmission**            | Actuators in joints | Lever/Linkage system   | gears/levers |
+
+
+# References
+
+[1] Grandia, R., Knoop, E., Hopkins, M., Wiedebach, G., Bishop, J., Pickles, S., Müller, D., & Bächer, M. (2024). Design and Control of a Bipedal Robotic Character. In Robotics: Science and Systems XX. Robotics: Science and Systems Foundation.
+DOI: ![10.15607/RSS.2024.XX.103](https://arxiv.org/abs/2501.05204)
 
 # Support
 
